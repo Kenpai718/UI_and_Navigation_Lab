@@ -5,6 +5,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,7 @@ import android.view.ViewGroup;
 
 import edu.uw.tcss450.uiandnavigationlab.R;
 import edu.uw.tcss450.uiandnavigationlab.databinding.FragmentThirdHomeBinding;
+import edu.uw.tcss450.uiandnavigationlab.model.UserInfoViewModel;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -38,6 +40,11 @@ public class ThirdHomeFragment extends Fragment {
         //used here.
         FragmentThirdHomeBinding binding = FragmentThirdHomeBinding.bind(getView());
 
-        binding.textEmail.setText("Welcome to your third home!");
+        //Note argument sent to the ViewModelProvider constructor. It is the Activity that
+        //holds this fragment.
+        UserInfoViewModel model = new ViewModelProvider(getActivity())
+                .get(UserInfoViewModel.class);
+        //binding.textEmail.setText("Welcome to your second home " + model.getEmail() + "!");
+        binding.textEmail.setText("Welcome to your third home " + model.getEmail() + "!");
     }
 }
