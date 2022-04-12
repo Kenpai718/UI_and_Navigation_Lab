@@ -1,4 +1,4 @@
-package edu.uw.tcss450.uiandnavigationlab.ui.incrementor;
+package edu.uw.tcss450.uiandnavigationlab.ui.blog;
 
 import android.os.Bundle;
 
@@ -13,12 +13,12 @@ import edu.uw.tcss450.uiandnavigationlab.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class IncrementorFragment extends Fragment {
+public class BlogListFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_incrementor, container, false);
+        return inflater.inflate(R.layout.fragment_blog_list, container, false);
     }
 }
