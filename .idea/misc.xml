@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
         <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/layout/fragment_blog_card.xml" value="0.2674772036474164" />
         <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/layout/fragment_blog_list.xml" value="0.1757852077001013" />
+        <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/layout/fragment_blog_post.xml" value="0.2617753623188406" />
         <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/layout/fragment_home.xml" value="0.48097826086956524" />
         <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/layout/fragment_incrementor.xml" value="0.33" />
         <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/layout/fragment_sign_in.xml" value="0.48097826086956524" />
