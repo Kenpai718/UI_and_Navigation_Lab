@@ -28,4 +28,14 @@
         android:name="edu.uw.tcss450.uiandnavigationlab.ui.home.ThirdHomeFragment"
         android:label="fragment_third_home"
         tools:layout="@layout/fragment_third_home" />
+    <fragment
+        android:id="@+id/navigation_blogs"
+        android:name="edu.uw.tcss450.uiandnavigationlab.ui.blog.BlogListFragment"
+        android:label="fragment_blog_list"
+        tools:layout="@layout/fragment_blog_list" />
+    <fragment
+        android:id="@+id/navigation_incrementor"
+        android:name="edu.uw.tcss450.uiandnavigationlab.ui.incrementor.IncrementorFragment"
+        android:label="fragment_incrementor"
+        tools:layout="@layout/fragment_incrementor" />
 </navigation>

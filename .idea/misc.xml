@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
         <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/layout/fragment_blog_list.xml" value="0.1757852077001013" />
+        <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/layout/fragment_home.xml" value="0.48097826086956524" />
         <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/layout/fragment_incrementor.xml" value="0.33" />
+        <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/layout/fragment_sign_in.xml" value="0.48097826086956524" />
+        <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/layout/fragment_third_home.xml" value="0.2669706180344478" />
         <entry key="..\:/Users/kenpa/AndroidStudioProjects/UI_and_Navigation_Lab/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2101851851851852" />
       </map>
     </option>

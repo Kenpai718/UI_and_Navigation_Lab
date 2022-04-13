@@ -7,8 +7,10 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/navigation_incrementor"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/title_incrementor" />
+        android:text="@string/title_incrementor"
+        tools:text="@string/title_incrementor" />
 
 </FrameLayout>
